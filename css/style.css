@@ -171,16 +171,6 @@ p {
   background-size: 55px;
 }
 
-/* .btn-s a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #1D5D9B;
-  color: #ffffff;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: 1px solid transparent;
-  border-radius: 5px;
-} */
 .header_section .btn-box a {
   display: inline-block;
   padding: 4px 20px;
@@ -380,6 +370,33 @@ p {
 /* end slider section */
 
 /* logo ya icon section*/
+/* <div class="p-4 border bg-light shadow" style="border-radius: 10px;"> */
+
+.info_box {
+  width: 163px;
+  height: 110px;
+  background-color: #f8f9fa;
+  /* border: 0.1rem solid black; */
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: 10px 10px;
+  border: 1px solid #dee2e6 !important;
+}
+
+.info_box:hover {
+  box-shadow: 10px 10px 5px rgb(161, 161, 161);
+  background-color: #dee2e6;
+}
+
+.box-txt {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 /* icon section ends  */
 .overlay {
@@ -736,18 +753,6 @@ p {
 }
 
 /* job section */
-
-.logo {
-  border-radius: 10%;
-  margin-left: 40px;
-}
-
-.box-txt {
-  margin-top: 10px;
-
-  font-weight: bold;
-  text-align: center;
-}
 
 .card-body h4 {
   font-weight: bold;
